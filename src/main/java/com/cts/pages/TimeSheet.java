@@ -49,11 +49,12 @@ public class TimeSheet extends BaseUI {
 			else
 				// Fail
 				System.out.println("*--Page title doesn't contains Be.Cognizant--*");
-			String name = driver.findElement(acc).getText();
-			System.out.println("*--The name for the Acoount is: " + name + " --*");
+			Thread.sleep(1000);
 			Screenshot("BeCognizant");
 			reportPass("Be.Cognizant Page is reached sucessfully");
-			System.out.println("*--Be.Cognizant Page is reached sucessfully--*");
+			System.out.println("*--Be.Cognizant Page is reached sucessfully--*");			
+			String name = driver.findElement(acc).getText();
+			System.out.println("*--The name for the Acoount is: " + name + " --*");
 			Thread.sleep(1000);
 			logger.addScreenCaptureFromPath(addScreenShot());
 
