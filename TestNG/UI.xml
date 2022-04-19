@@ -1,0 +1,7 @@
+<suite name="Cognizant TimeSheet UI Suite">
+	<test name="TimeSheet UI Test">
+		<classes>
+			<class name="com.cts.testSuites.timesheet" />
+		</classes>
+	</test>
+</suite>

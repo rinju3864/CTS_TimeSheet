@@ -35,5 +35,5 @@ Scrolling down in web page<br>
 </span>
 <span style="color:red;font-weight:700;font-size:18px">
 Drivers removed due to size restrictions.<br>
-
+CTS user id  & password removed from config for security
 </span>

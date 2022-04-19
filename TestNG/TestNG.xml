@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cognizant Timesheet Functional Suite">
+	<test name="Timesheet Functional Test">
+		<classes>
+			<class name="com.cts.testSuites.timesheet" />
+		</classes>
+	</test>
+</suite>
